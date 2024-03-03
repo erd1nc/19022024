@@ -1,0 +1,124 @@
+
+            h3{
+                color: #908f8f;
+            font-family: 'Monospace',sans-serif;
+            font-size:30px;
+
+            }
+            .sayac{
+                display: flex;
+                justify-content: center;
+
+                
+                
+
+                
+            }
+            .sayacc{
+                display: flex;
+                justify-content: center;
+                border-radius: 2%;
+                background-color: black;
+                opacity: 0.7;
+                               
+
+                
+            }
+
+            body, html {
+                height: 100%;
+                
+            
+            }
+            #body{
+                background: url(erdinc.jpg);
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+
+            }
+
+            .container{
+                position:absolute;
+                top:30%;
+                left:50%;
+                margin-left: -270px;
+                margin-top: -70px;                
+                height: 499px;
+                width: 600px;
+                border-radius: 2%;
+                background-color: black;
+                opacity:0.8;
+
+                
+                
+            }
+            #baslik{
+                position: absolute;
+                top:315px;
+                right:95px;
+                color: #908f8f;
+                font-family: 'Allan';
+                font-size:30px;
+            }
+            #yazi{
+                position: absolute;
+                top:360px;
+                right:100px;
+                color:gray;
+                font-size:12px;
+                font-family: 'Allan';
+            }
+          
+            
+
+            img.profil{
+                position:absolute;
+                left:150px;
+                border-radius: 50%;
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+            }
+
+/* button */
+
+.buton{
+    background-color: black;
+    height: 65px;
+    width: 100px;
+    font-family: 'Allan';
+    font-size: 22px;
+    position: absolute;
+    top: 120px;
+    left: 890px;
+    color: aliceblue;
+    border-radius: 8%;
+
+
+
+}
+.buton:hover{
+    background-color:silver;
+    height: 65px;
+    width: 100px;
+    font-family: 'Allan';
+    font-size: 22px;
+    position: absolute;
+    top: 120px;
+    left: 890px;
+    color: black;
+    border-radius: 8%;
+}
+#cr{
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    font-family: 'Allan';
+    
+}
+#cr:hover{
+    color: #908f8f;
+}
